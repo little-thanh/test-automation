@@ -1,0 +1,6 @@
+requests
+pytest
+pytest-watch
+ruff
+numpy
+

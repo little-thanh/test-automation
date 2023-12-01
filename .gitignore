@@ -1,0 +1,7 @@
+.pytest_cache
+.idea
+__pycache__
+htmlcov
+.coverage
+.mypy_cache
+.pytest_cache
