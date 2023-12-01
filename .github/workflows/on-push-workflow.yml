@@ -19,5 +19,5 @@ jobs:
         run: pytest
       - name: Ruff
         run: |
-          ruff --output-format=github
+          ruff --output-format=github .
           continue-on-error: true
