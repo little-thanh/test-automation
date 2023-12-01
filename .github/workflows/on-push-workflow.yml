@@ -17,3 +17,7 @@ jobs:
         run: pip install --no-cache-dir -r requirements.txt
       - name: Unit tests
         run: pytest
+      - name: Ruff
+        run:  |
+          ruff --output-format=github
+          continue-on-error: true
