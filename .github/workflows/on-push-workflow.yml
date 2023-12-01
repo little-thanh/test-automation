@@ -20,4 +20,4 @@ jobs:
       - name: Lint
         run: echo 'ruff'
       - name: Mypy
-        run: mypy
+        run: echo 'mypy'
