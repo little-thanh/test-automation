@@ -18,6 +18,6 @@ jobs:
       - name: Unit tests
         run: pytest
       - name: Lint
-        run: echo "Do the thing with 'ruff'!"
+        run: ruff
       - name: Mypy
-        run: echo "Do the thing with 'mypy'"
+        run: mypy
