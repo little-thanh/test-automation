@@ -18,6 +18,6 @@ jobs:
       - name: Unit tests
         run: pytest
       - name: Ruff
-        run:  |
+        run: |
           ruff --output-format=github
           continue-on-error: true
