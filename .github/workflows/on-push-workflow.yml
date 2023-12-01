@@ -17,7 +17,7 @@ jobs:
         run: pip install --no-cache-dir -r requirements.txt
       - name: Unit tests
         run: pytest
-      - name: Lint code
+      - name: Lint
         run: echo "Do the thing with 'ruff'!"
-      - name: Check typings
+      - name: Mypy
         run: echo "Do the thing with 'mypy'"
